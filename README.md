@@ -7,6 +7,7 @@ amplifier. The data is recorded using *Audacity* and then plotted using
 
 ## Scripts
 To be run in the following order:
+
 1. `sh download_packages.sh`
 2. `sudo sh install_packages.sh`
 
