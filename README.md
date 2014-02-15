@@ -11,6 +11,7 @@ To be run in the following order:
 1. `sh download_packages.sh`
 2. `sudo sh install_packages.sh`
 
+### Purpose
 * `download_packages.sh` - Downloads all the packages necessary for the
   workshop. These will probably become outdated when new ones are released. In
   this scenario synaptic can be installed and `gnuplot-x11` and `audacity`
