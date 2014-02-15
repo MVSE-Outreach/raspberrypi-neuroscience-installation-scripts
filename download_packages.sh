@@ -1,7 +1,10 @@
 #!/bin/sh
 if [ -d packages ]; then
 	cd packages
-done
+else
+  mkdir packages
+  cd packages
+fi
 
 wget -c http://mirrordirector.raspbian.org/raspbian/pool/main/i/imagemagick/imagemagick-common_6.7.7.10-5+deb7u2_all.deb
 wget -c http://mirrordirector.raspbian.org/raspbian/pool/main/liba/libav/libavutil51_0.8.6-1+rpi1_armhf.deb

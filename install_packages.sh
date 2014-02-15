@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -d packages ]; then
 	cd packages
-done
+fi
 
 sudo dpkg -i *.deb
